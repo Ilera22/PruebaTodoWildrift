@@ -244,6 +244,10 @@ body {
     display: none;
   }
 
+.Just_Article_Section {
+  width: 100%;
+}
+
   .Article_Container {
     margin-bottom: 50px;
     background-color: #009bff;
