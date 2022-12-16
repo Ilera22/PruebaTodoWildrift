@@ -282,13 +282,9 @@ body {
 }
 
 label .menu {
-  position: absolute;
-  right: -100px;
-  top: -100px;
   z-index: 100;
-  width: 200px;
-  height: 200px;
-  background: #fff;
+  width: 50px;
+  height: 50px;
   border-radius: 50% 50% 50% 50%;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
@@ -303,7 +299,7 @@ label .hamburger {
   right: 20px;
   width: 30px;
   height: 3px;
-  background: white;
+  background-color:white;
   display: block;
   border-radius: 1px;
   -webkit-transform-origin: center;
@@ -387,4 +383,4 @@ label a {
   display: block;
   color: white;
   text-decoration: none;
-}
+}
