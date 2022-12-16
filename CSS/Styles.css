@@ -248,8 +248,33 @@ body {
   color: rgb(95, 95, 95);
 }
 
-/* Responsiveness */
+/* Campeones */
 
+.Champion_Container{
+  width:30%;
+}
+
+.Champion_IMG {
+  background-color: white;
+  object-fit: contain;
+  overflow:hidden;
+  clip-path: polygon(
+    0% 30px,                 /* top left */
+    50px 0%,                 /* top left */
+    calc(100% - 0px) 0%,    /* top right */
+    100% 0px,               /* top right */
+    100% calc(100% - 0px),  /* bottom right */
+    calc(100% - 0px) 100%,  /* bottom right */
+    0px 100%,               /* bottom left */
+    0 calc(100% - 0px)      /* bottom left */
+  )
+}
+
+
+
+/* Fin de Campeones */
+
+/* Responsiveness */
 @media only screen and (max-width: 600px) {
   .Menu_Nav {
     display: none;
