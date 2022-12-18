@@ -291,6 +291,48 @@ body {
 }
 /* Fin de Campeones */
 
+
+
+
+.Rank_container{
+  Margin-top:15px;
+  display: flex;
+  flex-direction: row;
+  overflow:hidden;
+  clip-path: polygon(
+    0% 0px,                 /* top left */
+    20px 0%,                 /* top left */
+    calc(100% - 50px) 0%,    /* top right */
+    100% 30px,               /* top right */
+    100% calc(100% - 0px),  /* bottom right */
+    calc(100% - 0px) 100%,  /* bottom right */
+    50px 100%,               /* bottom left */
+    0 calc(100% - 30px)      /* bottom left */
+  )
+  }
+
+.Rank_Tier{
+  width:10%;
+  background-color:teal;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Rank_Champs_Container{
+  width:90%;
+  padding:10px 15px;
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  background-color: rgba(255, 255, 255, 0.1);
+
+}
+  
+  
+
+
+
 /* Inicio de Items */
 
 
@@ -313,8 +355,8 @@ body {
 
 
 .Item_IMG {
-  Width: 100px;
-  height:100px;
+  Min-Width: 100px;
+  Min-height:100px;
   background-color: white;
   object-fit: contain;
   border-radius:50%;
